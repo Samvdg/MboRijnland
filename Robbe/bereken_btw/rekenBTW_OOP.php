@@ -1,8 +1,17 @@
 <?php
-include $_SERVER['PHP_SELF'];
+include './rekenBTW_OOP';
 
 class form {
+
 public $class = new form();
+
+public $bedrag = 100;                      // het ingevoerde bedrag  (standaard 100)
+public $btw = 21;                          // percentage btw         (standaard 21)
+public $inc = true;                        // boolean, om aan te geven of het bedrag inclusief of exclusief btw is
+public $btwBedrag = $btw/100*$bedrag;      // hoeveelheid btw van het bedrag
+public $noBtw = $bedrag - $btwBedrag;      // bedrag zonder btw
+public $incBtw = $bedrag;                  // bedrag met btw
+
 
     function __construct() {
         echo'
@@ -18,23 +27,6 @@ public $class = new form();
                 </form>
             </html>
     '
-    }
-    if(isset($_POST["submit"])){
-        $bedrag = $_POST["bedrag"];
-        if($_POST["btw"] == "inc"){
-            $btw = (21*$bedrag)/121;
-        } elseif($_POST["btw"] == "exc") {
-            $btw = $bedrag*0.21;
-            $noBtw = $bedrag;
-            $incBtw = $bedrag + $btw;
-        }
-    }
-
-    if(!isset($bedrag)){
-        $bedrag = 100;
-        $btw = $bedrag*0.21;
-        $noBtw = $bedrag-$btw;
-        $incBtw = $bedrag;
     }
 }
 ?>
