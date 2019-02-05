@@ -45,7 +45,7 @@ echo '
                 </form>
             <td>
             <td>
-                btw: €'. $btw .',- <br>
+                btw: '. $btw .'% <br>
                 btw bedrag: €'. $btwBedrag .',- <br>
                 zonder btw: €'. $noBtw .',-<br>
                 met btw: €'. $incBtw .' <br>
