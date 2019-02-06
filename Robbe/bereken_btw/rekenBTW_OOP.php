@@ -106,20 +106,17 @@ class form {
      * @param inc bool Dit is om aan te geven of het gegeven bedrag inclusief of exclusief btw is
      */
     public function calcBtw($inc){
+        $btw = $this->getBtw();
+        $bedrag = $this->getBedrag();
+        $btwBedrag = $btw*$bedrag/121;
+        $btwBedrag = number_format($btwBedrag, 2);
+
         if($inc) {
-            $btw = $this->getBtw();
-            $bedrag = $this->getBedrag();
-            $btwBedrag = $btw*$bedrag/121;
-            $btwBedrag = number_format($btwBedrag, 2);
             $noBtw = $bedrag - $btwBedrag;
             $this->setBtwBedrag($btwBedrag);
             $this->setNoBtw($noBtw);
             $this->setIncBtw($bedrag);
         } else {
-            $btw = $this->getBtw();
-            $bedrag = $this->getBedrag();
-            $btwBedrag = $btw/100*$bedrag;
-            $btwBedrag = number_format($btwBedrag, 2);
             $incBtw = $bedrag + $btwBedrag;
             $this->setBtwBedrag($btwBedrag);
             $this->setNoBtw($bedrag);
