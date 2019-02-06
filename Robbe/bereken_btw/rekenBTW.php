@@ -8,6 +8,16 @@ $btwBedrag = $btw/100*$bedrag;      // hoeveelheid btw van het bedrag
 $noBtw = $bedrag - $btwBedrag;      // bedrag zonder btw
 $incBtw = $bedrag;                  // bedrag met btw
 
+function berekenBTW($inc, $btw, $bedrag) {
+    if($inc) {
+        $money = $btw*$bedrag/121;
+        return number_format($money, 2);
+    } else {
+        $money = $btw/100*$bedrag;
+        return number_format($money, 2);
+    }
+}
+
 if(isset($_POST["submit"])){
     $bedrag = $_POST["bedrag"];     // 
     $inc = $_POST["inc"];
@@ -18,16 +28,6 @@ if(isset($_POST["submit"])){
     } elseif($inc == "false") {
         $noBtw = $bedrag;
         $incBtw = $bedrag + $btwBedrag;
-    }
-}
-
-function berekenBTW($inc, $btw, $bedrag) {
-    if($inc) {
-        $money = $btw*$bedrag/121;
-        return number_format($money, 2);
-    } else {
-        $money = $btw/100*$bedrag;
-        return number_format($money, 2);
     }
 }
 
