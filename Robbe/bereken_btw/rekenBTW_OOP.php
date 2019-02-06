@@ -108,15 +108,16 @@ class form {
     public function calcBtw($inc){
         $btw = $this->getBtw();
         $bedrag = $this->getBedrag();
-        $btwBedrag = $btw*$bedrag/121;
         $btwBedrag = number_format($btwBedrag, 2);
-
+        
         if($inc) {
+            $btwBedrag = $btw*$bedrag/121;
             $noBtw = $bedrag - $btwBedrag;
             $this->setBtwBedrag($btwBedrag);
             $this->setNoBtw($noBtw);
             $this->setIncBtw($bedrag);
         } else {
+            $btwBedrag = $bedrag*($btw/100);
             $incBtw = $bedrag + $btwBedrag;
             $this->setBtwBedrag($btwBedrag);
             $this->setNoBtw($bedrag);
@@ -141,21 +142,22 @@ echo '
 <html>
     <table style="width: 100%">
         <tr>
-            <td>
+            <td style="width: 50%;">
                 <form method="post" action="rekenBTW_OOP.php">
-                    bedrag: <input required name="bedrag" type="text" placeholder="'. $form->getBedrag() .',-" ><br>
+                    bedrag: €<input required name="bedrag" type="text" placeholder="'. $form->getBedrag() .'" >,-<br>
                     Is het aangegeven bedrag:<br>
                     - inclusief BTW: <input required type="radio" name="inc" value="true" <br><br>
                     - exclusief BTW: <input required type="radio" name="inc" value="false" ><br><br>
                     <input type="submit" name="submit" value="submit">
                 </form>
-            <td>
-            <td>
+            </td>
+            <td style="width: 50%;">
+                bedrag: €'.$form->getBedrag() .',-<br>
                 btw: '. $form->getBtw() .'% <br>
                 btw bedrag: €'. $form->getBtwBedrag() .',- <br>
                 zonder btw: €'. $form->getNoBtw() .',-<br>
                 met btw: €'. $form->getIncBtw() .' <br>
-            <td>
+            </td>
         </tr>
     </table>
 </html>

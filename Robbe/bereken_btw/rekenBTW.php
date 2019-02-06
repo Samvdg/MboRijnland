@@ -35,16 +35,17 @@ echo '
 <html>
     <table style="width: 100%">
         <tr>
-            <td>
+            <td style="width: 50%; text-align: center;">
                 <form method="post" action="rekenBTW.php">
-                    bedrag: <input name="bedrag" type="text" placeholder="'. $bedrag .',-" ><br>
+                    bedrag: €<input name="bedrag" type="text" placeholder="'. $bedrag .'" >,-<br>
                     Is het aangegeven bedrag:<br>
                     - inclusief BTW: <input type="radio" name="inc" value="true" <br><br>
                     - exclusief BTW: <input type="radio" name="inc" value="false" ><br><br>
                     <input type="submit" name="submit" value="submit">
                 </form>
             <td>
-            <td>
+            <td style="width: 50%; text-align: center;">
+                bedrag: €'.$bedrag.',- <br>
                 btw: '. $btw .'% <br>
                 btw bedrag: €'. $btwBedrag .',- <br>
                 zonder btw: €'. $noBtw .',-<br>
