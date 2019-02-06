@@ -41,41 +41,70 @@ class form {
     }
 
     /**
-     * 
+     * Return boolean voor inclusief btw
      */
     public function getInc(){
         return $this->inc;
     }
 
+    /**
+     * Update boolean voor inclusief btw
+     * @param inc bool Boolean of het bedrag inclusief of exclusief btw is
+     */
     public function setInc($inc){
         $this->inc = $inc;
     }
 
+    /**
+     * Return waarde btw van het bedrag
+     */
     public function getBtwBedrag(){
         return $this->btwBedrag;
     }
 
+    /**
+     * Update waarde btw van het bedrag
+     * @param btwBedrag int Waarde van het nieuwe bedrag
+     */
     public function setBtwBedrag($btwBedrag){
         $this->btwBedrag = $btwBedrag;
     }
 
+    /**
+     * Return waarde van het bedrag exclusief btw
+     */
     public function getNoBtw(){
         return $this->noBtw;
     }
 
+    /**
+     * Update waarde van het bedrag exclusief btw
+     * @param int noBtw Nieuwe bedrag exclusief btw
+     */
     public function setNoBtw($noBtw){
         $this->noBtw = $noBtw;
     }
 
+    /**
+     * Return waarde van bedrag inclusief btw
+     */
     public function getIncBtw(){
         return $this->incBtw;
     }
 
+    /**
+     * Update waarde van het bedrag inclusief btw
+     * @param int incBtw Nieuwe bedrag inclusief btw
+     */
     public function setIncBtw($incBtw){
         $this->incBtw = $incBtw;
     }
 
 
+    /**
+     * Bereken en update het btw en en bedrag
+     * @param inc bool Dit is om aan te geven of het gegeven bedrag inclusief of exclusief btw is
+     */
     public function calcBtw($inc){
         if($inc) {
             $btw = $this->getBtw();
@@ -100,27 +129,27 @@ class form {
 }
 
 $form = new form();
-
-    if(isset($_POST["submit"])){
-        $bedrag = $_POST["bedrag"];
-        $inc = $_POST["inc"];
-        if($bedrag || $inc != null || " "){
-            $form->setBedrag($bedrag);
-            $form->setInc($inc);
-            $form->calcBtw($inc);
-        }
+if(isset($_POST["submit"])){
+    $bedrag = $_POST["bedrag"];
+    $inc = $_POST["inc"];
+    if($bedrag || $inc != null || " "){
+        $form->setBedrag($bedrag);
+        $form->setInc($inc);
+        $form->calcBtw($inc);
     }
+}
 
+// echo inplaats van HTML om makkelijker te communiceren met PHP
 echo '
 <html>
     <table style="width: 100%">
         <tr>
             <td>
                 <form method="post" action="rekenBTW_OOP.php">
-                    bedrag: <input name="bedrag" type="text" placeholder="'. $form->getBedrag() .',-" ><br>
+                    bedrag: <input required name="bedrag" type="text" placeholder="'. $form->getBedrag() .',-" ><br>
                     Is het aangegeven bedrag:<br>
-                    - inclusief BTW: <input type="radio" name="inc" value="true" <br><br>
-                    - exclusief BTW: <input type="radio" name="inc" value="false" ><br><br>
+                    - inclusief BTW: <input required type="radio" name="inc" value="true" <br><br>
+                    - exclusief BTW: <input required type="radio" name="inc" value="false" ><br><br>
                     <input type="submit" name="submit" value="submit">
                 </form>
             <td>
