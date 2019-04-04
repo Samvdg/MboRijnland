@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Log{% endblock %}
+
+{% block body %}
+    <h1>Log</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>Id</th>
+                <td>{{ log.id }}</td>
+            </tr>
+            <tr>
+                <th>Brief_nr</th>
+                <td>{{ log.briefNr }}</td>
+            </tr>
+            <tr>
+                <th>Datum</th>
+                <td>{{ log.datum ? log.datum|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Kubs</th>
+                <td>{{ log.kubs }}</td>
+            </tr>
+            <tr>
+                <th>Laadplaats</th>
+                <td>{{ log.laadplaats }}</td>
+            </tr>
+            <tr>
+                <th>Vertrektijd</th>
+                <td>{{ log.vertrektijd ? log.vertrektijd|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
+            <tr>
+                <th>Bestemming</th>
+                <td>{{ log.bestemming }}</td>
+            </tr>
+            <tr>
+                <th>Evenement</th>
+                <td>{{ log.evenement }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('log_index') }}">back to list</a>
+
+    <a href="{{ path('log_edit', {'id': log.id}) }}">edit</a>
+
+    {{ include('log/_delete_form.html.twig') }}
+{% endblock %}

@@ -1,6 +1,6 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Hello DefaultController!{% endblock %}
+{% block title %}Hello{% if app.user %} {{ app.user }} {% endif %}!{% endblock %}
 
 {% block body %}
 <style>
@@ -9,12 +9,9 @@
 </style>
 
 <div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li>Your controller at <code><a href="{{ 'C:/xampp/htdocs/MboRijnland/Robbe/logboek/logboek/src/Controller/DefaultController.php'|file_link(0) }}">src/Controller/DefaultController.php</a></code></li>
-        <li>Your template at <code><a href="{{ 'C:/xampp/htdocs/MboRijnland/Robbe/logboek/logboek/templates/default/index.html.twig'|file_link(0) }}">templates/default/index.html.twig</a></code></li>
-    </ul>
+    {% if app.user %}
+        <h1>Hello {{ app.user }}! ✅</h1>
+        <h2>Welcome to your profile, navigate by clicking links with the top menu bar</h2>
+    {% endif %}
 </div>
 {% endblock %}

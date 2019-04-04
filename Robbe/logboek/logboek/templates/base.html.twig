@@ -10,6 +10,30 @@
         <nav class="navigation navbar navbar-expand-lg navbar-light bg-light">
             <div class="justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="justify-content-end navbar-nav">
+                    {% if app.user %}
+                        <li class="justify-self-start nav-item active">
+                            <a class="nav-link" href="/user/{{ app.user.id }}">Profile</a>
+                        </li>
+                        <li class="justify-self-start nav-item active">
+                            <a class="nav-link" href="/log">Alle logs</a>
+                        </li>
+                    {% endif %}
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    {% if is_granted("ROLE_USER") %}
+                        <li class="'nav-item active">
+                            <a class="nav-link" href="/log">Jouw logs</a>
+                        </li>
+                    {% endif %}
+                    {% if is_granted("ROLE_ADMIN") %}
+                        <li class="'nav-item active">
+                            <a class="nav-link" href="/truck">Trucks</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/user">Users</a>
+                        </li>
+                    {% endif %}
                     <li class="nav-item active">
                         {% if app.user %}
                             <a class="nav-link" href="{{ path('fos_user_security_logout') }}">Logout {{ app.user }}</a>
@@ -17,6 +41,7 @@
                             <a class="nav-link" href="{{ path('fos_user_security_login') }}">Login</a>
                         {% endif %}
                     </li>
+
                 </ul>
             </div>
         </nav>

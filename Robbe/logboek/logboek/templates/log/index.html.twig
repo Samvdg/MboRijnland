@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Log index{% endblock %}
+
+{% block body %}
+    {% if is_granted("ROLE_ADMIN") %}
+    <h1>Log index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Brief_nr</th>
+                <th>Datum</th>
+                <th>Kubs</th>
+                <th>Laadplaats</th>
+                <th>Vertrektijd</th>
+                <th>Bestemming</th>
+                <th>Evenement</th>
+                <th>actions</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for log in logs %}
+            <tr>
+                <td>{{ log.id }}</td>
+                <td>{{ log.briefNr }}</td>
+                <td>{{ log.datum ? log.datum|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ log.kubs }}</td>
+                <td>{{ log.laadplaats }}</td>
+                <td>{{ log.vertrektijd ? log.vertrektijd|date('Y-m-d H:i:s') : '' }}</td>
+                <td>{{ log.bestemming }}</td>
+                <td>{{ log.evenement }}</td>
+                <td>
+                    <a href="{{ path('log_show', {'id': log.id}) }}">show</a>
+                    <a href="{{ path('log_edit', {'id': log.id}) }}">edit</a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="9">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+    {% endif %}
+
+    <a href="{{ path('log_new') }}">Create new</a>
+{% endblock %}
