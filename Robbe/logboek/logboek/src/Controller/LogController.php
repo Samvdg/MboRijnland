@@ -9,20 +9,32 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Security\Core\Security;
 
 /**
  * @Route("/log")
  */
 class LogController extends AbstractController
 {
+    public function __construct(Security $security)
+    {
+        $this->security = $security;
+    }
+
     /**
      * @Route("/", name="log_index", methods={"GET"})
      */
     public function index(LogRepository $logRepository): Response
     {
-        return $this->render('log/index.html.twig', [
-            'logs' => $logRepository->findAll(),
-        ]);
+        if ($this->security->isGranted('ROLE_ADMIN')){
+            return $this->render('log/index.html.twig', [
+                'logs' => $logRepository->findAll(),
+            ]);
+        } else {
+            return $this->render('log/index.html.twig', [
+                'logs' => $logRepository->findAll(),
+            ]);
+        }
     }
 
     /**
@@ -94,3 +106,4 @@ class LogController extends AbstractController
         return $this->redirectToRoute('log_index');
     }
 }
+

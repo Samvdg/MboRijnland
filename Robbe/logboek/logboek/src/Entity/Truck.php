@@ -71,4 +71,10 @@ class Truck
 
         return $this;
     }
+
+    public function __toString()
+    {
+        // TODO: Implement __toString() method.
+        return strval($this->id);
+    }
 }
