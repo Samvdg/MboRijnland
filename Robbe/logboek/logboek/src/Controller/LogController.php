@@ -27,14 +27,19 @@ class LogController extends AbstractController
     public function index(LogRepository $logRepository): Response
     {
         if ($this->security->isGranted('ROLE_ADMIN')){
-            return $this->render('log/index.html.twig', [
-                'logs' => $logRepository->findAll(),
-            ]);
-        } else {
-            return $this->render('log/index.html.twig', [
-                'logs' => $logRepository->findAll(),
-            ]);
+            $logs = $logRepository->findAll();
+
+        } elseif($this->security->isGranted('ROLE_DRIVER') || $this->security->isGranted('ROLE_USER')) {
+            $logs = $logRepository->createQueryBuilder('x')
+                ->orWhere('x.chauffeurId = :id OR x.userId = :id')
+                ->setParameter('id', $this->getUser()->getId())
+                ->getQuery()
+                ->getResult();
+
         }
+        return $this->render('log/index.html.twig',[
+            'logs' => $logs,
+        ]);
     }
 
     /**

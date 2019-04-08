@@ -13,10 +13,6 @@
                     {% if app.user %}
                         <li class="justify-self-start nav-item active">
                             <a class="nav-link" href="/user/{{ app.user.id }}">Profile</a>
-                        </li>
-                        <li class="justify-self-start nav-item active">
-                            <a class="nav-link" href="/log">Alle logs</a>
-                        </li>
                     {% endif %}
                     <li class="nav-item active">
                         <a class="nav-link" href="/">Home</a>
@@ -32,6 +28,10 @@
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="/user">Users</a>
+                        </li>
+                        </li>
+                        <li class="justify-self-start nav-item active">
+                            <a class="nav-link" href="/log">Alle logs</a>
                         </li>
                     {% endif %}
                     <li class="nav-item active">
