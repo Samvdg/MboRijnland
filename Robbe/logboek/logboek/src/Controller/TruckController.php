@@ -9,20 +9,33 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
+use Symfony\Component\Security\Core\Security;
 
 /**
  * @Route("/truck")
  */
 class TruckController extends AbstractController
 {
+    public function __construct(Security $security)
+    {
+        $this->security = $security;
+    }
+
     /**
      * @Route("/", name="truck_index", methods={"GET"})
      */
     public function index(TruckRepository $truckRepository): Response
     {
-        return $this->render('truck/index.html.twig', [
-            'trucks' => $truckRepository->findAll(),
-        ]);
+        if($this->security->isGranted('ROLE_ADMIN')) {
+            return $this->render('truck/index.html.twig', [
+                'trucks' => $truckRepository->findAll(),
+            ]);
+        }
+        else {
+            return $this->render('default/index.html.twig', [
+                'results' => '403 acces denied',
+            ]);
+        }
     }
 
     /**

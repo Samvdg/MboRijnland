@@ -30,12 +30,7 @@ class LogController extends AbstractController
             $logs = $logRepository->findAll();
 
         } elseif($this->security->isGranted('ROLE_DRIVER') || $this->security->isGranted('ROLE_USER')) {
-            $logs = $logRepository->createQueryBuilder('x')
-                ->orWhere('x.chauffeurId = :id OR x.userId = :id')
-                ->setParameter('id', $this->getUser()->getId())
-                ->getQuery()
-                ->getResult();
-
+            $logs = $logRepository->findAlmostAll($this->getUser()->getId());
         }
         return $this->render('log/index.html.twig',[
             'logs' => $logs,

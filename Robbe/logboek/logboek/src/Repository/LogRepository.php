@@ -19,6 +19,15 @@ class LogRepository extends ServiceEntityRepository
         parent::__construct($registry, Log::class);
     }
 
+    public function findAlmostAll($user)
+    {
+        return $this->createQueryBuilder('x')
+            ->orWhere('x.chauffeurId = :id OR x.userId = :id')
+            ->setParameter('id', $user)
+            ->getQuery()
+            ->getResult();
+    }
+
     // /**
     //  * @return Log[] Returns an array of Log objects
     //  */

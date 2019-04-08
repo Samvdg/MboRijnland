@@ -13,5 +13,10 @@
         <h1>Hello {{ app.user }}! ✅</h1>
         <h2>Welcome to your profile, navigate by clicking links with the top menu bar</h2>
     {% endif %}
+    {% if results %}
+        <span class="results">
+                {{ results }}
+        </span>
+    {% endif %}
 </div>
 {% endblock %}
