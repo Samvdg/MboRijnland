@@ -19,6 +19,18 @@
                 <th>Lengtegraad</th>
                 <td>{{ locatie.lengtegraad }}</td>
             </tr>
+            <tr>
+                <th>ImageName</th>
+                <td>{{ locatie.imageName }}</td>
+            </tr>
+            <tr>
+                <th>ImageSize</th>
+                <td>{{ locatie.imageSize }}</td>
+            </tr>
+            <tr>
+                <th>UpdatedAt</th>
+                <td>{{ locatie.updatedAt ? locatie.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
         </tbody>
     </table>
 

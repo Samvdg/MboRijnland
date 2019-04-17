@@ -11,6 +11,7 @@
                 <th>Id</th>
                 <th>Breedtegraad</th>
                 <th>Lengtegraad</th>
+                <th>ImageName</th>
                 <th>actions</th>
             </tr>
         </thead>
@@ -20,6 +21,7 @@
                 <td>{{ locatie.id }}</td>
                 <td>{{ locatie.breedtegraad }}</td>
                 <td>{{ locatie.lengtegraad }}</td>
+                <td><img src={{ vich_uploader_asset(locatie, 'imageFile') }} width="300px"></td>
                 <td>
                     <a href="{{ path('locatie_show', {'id': locatie.id}) }}">show</a>
                     <a href="{{ path('locatie_edit', {'id': locatie.id}) }}">edit</a>
@@ -27,7 +29,7 @@
             </tr>
         {% else %}
             <tr>
-                <td colspan="4">no records found</td>
+                <td colspan="7">no records found</td>
             </tr>
         {% endfor %}
         </tbody>

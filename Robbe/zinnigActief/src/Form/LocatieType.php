@@ -6,6 +6,7 @@ use App\Entity\Locatie;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
+use Vich\UploaderBundle\Form\Type\VichImageType;
 
 class LocatieType extends AbstractType
 {
@@ -14,6 +15,7 @@ class LocatieType extends AbstractType
         $builder
             ->add('breedtegraad')
             ->add('lengtegraad')
+            ->add('imageFile', VichImageType::class)
         ;
     }
 
