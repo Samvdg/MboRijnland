@@ -31,6 +31,18 @@
                 <th>Description</th>
                 <td>{{ event.description }}</td>
             </tr>
+            <tr>
+                <th>ImageName</th>
+                <td>{{ event.imageName }}</td>
+            </tr>
+            <tr>
+                <th>ImageSize</th>
+                <td>{{ event.imageSize }}</td>
+            </tr>
+            <tr>
+                <th>UpdatedAt</th>
+                <td>{{ event.updatedAt ? event.updatedAt|date('Y-m-d H:i:s') : '' }}</td>
+            </tr>
         </tbody>
     </table>
 

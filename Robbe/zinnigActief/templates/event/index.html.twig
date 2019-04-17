@@ -14,6 +14,7 @@
                 <th>Min</th>
                 <th>Max</th>
                 <th>Description</th>
+                <th>ImageName</th>
                 <th>actions</th>
             </tr>
         </thead>
@@ -26,6 +27,7 @@
                 <td>{{ event.min }}</td>
                 <td>{{ event.max }}</td>
                 <td>{{ event.description }}</td>
+                <td><img src={{ vich_uploader_asset(event, 'imageFile') }} width="300px"></td>
                 <td>
                     <a href="{{ path('event_show', {'id': event.id}) }}">show</a>
                     <a href="{{ path('event_edit', {'id': event.id}) }}">edit</a>
@@ -33,7 +35,7 @@
             </tr>
         {% else %}
             <tr>
-                <td colspan="7">no records found</td>
+                <td colspan="10">no records found</td>
             </tr>
         {% endfor %}
         </tbody>
