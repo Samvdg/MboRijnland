@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Boeking{% endblock %}
+
+{% block body %}
+    <h1>Create new Boeking</h1>
+
+    {{ include('boeking/_form.html.twig') }}
+
+    <a href="{{ path('boeking_index') }}">back to list</a>
+{% endblock %}
