@@ -32,9 +32,9 @@ class BoekingRepository extends ServiceEntityRepository
                 'SELECT *
                    FROM App\Entity\Room r
                    WHERE r.id IN (
-                   SELECT roomId
+                   SELECT roomId 
                    FROM App\Entity\Boeking b
-                   WHERE b.start < :sDate AND :eDate AND b.end > :sDate AND :eDate)'
+                   WHERE b.start < :sDate OR :eDate AND b.end > :sDate OR :eDate)'
                 )
                 ->setParameter('sDate', $sDate)
                 ->setParameter('eDate', $eDate);

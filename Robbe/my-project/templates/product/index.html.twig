@@ -1,0 +1,83 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Product index{% endblock %}
+
+{% block body %}
+    <h1>Product index</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th colspan="6">shopping cart</th>
+            </tr>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Description</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Full price</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for item in items %}
+            <tr>
+                <td>{{ item.id }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.description }}</td>
+                <td>${{ item.price }},-</td>
+                <td>{{ item.quantity }}</td>
+                <td>${{ item.fullPrice }},-</td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">No items in cart, go buy yourself something nice :D</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>The total amount: ${{ actualPrice }},-</td>
+            </tr>
+            <tr>
+                <td colspan="10"><a href="{{ path('cart') }}"> <button class="btn btn-primary">To check-out!</button></a></td>
+            </tr>
+        </tfoot>
+    </table>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Description</th>
+                <th>Inventory</th>
+                <th>actions</th>
+                <th>add to cart</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for product in products %}
+            <tr>
+                <td>{{ product.id }}</td>
+                <td>{{ product.name }}</td>
+                <td>${{ product.price }}</td>
+                <td>{{ product.description }}</td>
+                <td>{{ product.inventory }}</td>
+                <td>
+                    <a href="{{ path('product_show', {'id': product.id}) }}">show</a>
+                    <a href="{{ path('product_edit', {'id': product.id}) }}">edit</a>
+               
+                </td>
+                <td><a href="{{ path('product_addToCart', {'id': product.id}) }}">add</a></td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="5">no records found</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+    <a href="{{ path('product_new') }}">Create new</a>
+{% endblock %}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9cfaff18-a1d4-4de3-b6d4-d8012585032d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/Documentation/Rekentuin App Info.Behoefte.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Jeffrey/Rekentuin App/Documentation/Rekentuin App Info.Behoefte.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/components/Home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/components/home/Sub.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/theme/constants/components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/theme/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/theme/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/app/theme/styles/TitleBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/assets/ios/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/assets/ios/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/assets/shared/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/assets/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Jeffrey/Rekentuin App/rekentuin/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/.env" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/packages/fos_user.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/packages/fos_user.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/config/routes.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Security/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Security/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/Symfony/Jochie/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/Symfony/Jochie/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/zinnigActief/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/zinnigActief/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/zinnigActief/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/zinnigActief/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/zinnigActief/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/zinnigActief/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Robbe/zinnigActief/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Robbe/zinnigActief/symfony.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Robbe/zinnigActief/src/Form/EventType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="e#28#49#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Robbe/zinnigActief/src/Form/EventType.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="344" />
+    <option name="y" value="19" />
+    <option name="width" value="814" />
+    <option name="height" value="773" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MboRijnland" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MboRijnland" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MboRijnland" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MboRijnland" type="462c0819:PsiDirectoryNode" />
+              <item name="Robbe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MboRijnland" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MboRijnland" type="462c0819:PsiDirectoryNode" />
+              <item name="Robbe" type="462c0819:PsiDirectoryNode" />
+              <item name="zinnigActief" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Robbe/zinnigActief" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\MboRijnland\Robbe\zinnigActief\src\Resources\FOSUserBundle" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\MboRijnland\Robbe" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9cfaff18-a1d4-4de3-b6d4-d8012585032d" name="Default Changelist" comment="" />
+      <created>1555529450808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555529450808</updated>
+      <workItem from="1555529452036" duration="2514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2514000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1554" height="916" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966533" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3256705" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Robbe/zinnigActief/src/Form/LocatieType.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Robbe/zinnigActief/src/Resources/FOSUserBundle/views/Group/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Robbe/zinnigActief/src/Form/EventType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#28#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

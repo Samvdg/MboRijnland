@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a011829-9d42-4269-8e40-7353c0687656" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/.env.test" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/bin/console" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/bin/phpunit" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/bundles.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/cache.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/dev/debug.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/dev/easy_log_handler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/dev/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/dev/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/dev/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/doctrine_migrations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/fos_user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/prod/doctrine.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/prod/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/security.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/sensio_framework_extra.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/test/framework.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/test/monolog.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/test/routing.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/test/swiftmailer.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/test/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/translation.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/packages/validator.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/routes.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/routes/annotations.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/routes/dev/twig.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/routes/dev/web_profiler.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/config/services.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/phpunit.xml.dist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/public/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Controller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Entity/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Kernel.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Migrations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Repository/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/ChangePassword/change_password.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/ChangePassword/change_password_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/edit_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/list_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/new_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Group/show_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Profile/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Profile/edit_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Profile/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Profile/show_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Registration/check_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Registration/email.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Registration/register.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Registration/register_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Resetting/check_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Resetting/email.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Resetting/request.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Resetting/request_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Resetting/reset.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Resetting/reset_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/Security/login_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/src/Resources/FOSUserBundle/views/layout.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/symfony.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/templates/base.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/tests/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/Symfony/Jochie/translations/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/config/packages/fos_user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/config/routes/fos_user.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/src/Entity/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/ChangePassword/change_password.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/ChangePassword/change_password_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/edit_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/list.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/list_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/new.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/new_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Group/show_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Profile/edit.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Profile/edit_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Profile/show.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Profile/show_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Registration/check_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Registration/confirmed.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Registration/email.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Registration/register.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Registration/register_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Resetting/check_email.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Resetting/email.txt.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Resetting/request.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Resetting/request_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Resetting/reset.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Resetting/reset_content.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/Security/login.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Robbe/logboek/logboek/templates/bundles/FOSUserBundle/views/layout.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Documentation/Rekentuin App Info.Behoefte.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Documentation/Rekentuin App Info.Behoefte.docx" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1732794961">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/rekenenbitch/starter-default/package.json" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="793" />
+    <option name="y" value="40" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Rekentuin App" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Rekentuin App" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\MboRijnland\Jeffrey\Rekentuin App\rekenenbitch" />
+      <recent name="C:\xampp\htdocs\MboRijnland\Jeffrey\Rekentuin App\rekentuin" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a011829-9d42-4269-8e40-7353c0687656" name="Default Changelist" comment="" />
+      <created>1552573845938</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552573845938</updated>
+      <workItem from="1552575040218" duration="469000" />
+      <workItem from="1552575540918" duration="813000" />
+      <workItem from="1552895645473" duration="70000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1352000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="793" y="40" width="814" height="867" extended-state="0" />
+    <layout>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.6056701" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49925372" visible="true" weight="0.30559346" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50074625" side_tool="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3402985" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49925372" visible="true" weight="0.47889373" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50074625" side_tool="true" weight="0.32896653" />
+      <window_info anchor="bottom" id="Docker" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Theme Preview" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/rekenen/starter-default" />
+      <path value="$PROJECT_DIR$/rekentuin/starter-default" />
+      <path value="$PROJECT_DIR$/starter-default" />
+    </ignored-roots>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/rekentuin/package.json" />
+    <entry file="file://$PROJECT_DIR$/rekentuin/app/components/home/Sub.jsx" />
+    <entry file="file://$PROJECT_DIR$/rekentuin/app/app.js" />
+    <entry file="file://$PROJECT_DIR$/rekenenbitch/starter-default/package.json" />
+    <entry file="file://$PROJECT_DIR$/rekenenbitch/starter-default/app/components/Home.jsx" />
+    <entry file="file://$PROJECT_DIR$/rekenenbitch/starter-default/app/components/home/Sub.jsx" />
+    <entry file="file://$PROJECT_DIR$/rekenenbitch/starter-default/README.md" />
+    <entry file="file://$PROJECT_DIR$/rekenapp/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rekenapp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
