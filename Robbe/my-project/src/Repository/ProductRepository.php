@@ -72,6 +72,11 @@ class ProductRepository extends ServiceEntityRepository
         return $return;
     }
 
+    public function saveDetails()
+    {
+        
+    }
+
     // /**
     //  * @return Product[] Returns an array of Product objects
     //  */

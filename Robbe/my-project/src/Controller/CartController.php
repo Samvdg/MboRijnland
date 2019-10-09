@@ -22,4 +22,15 @@ class CartController extends AbstractController
             'actualPrice' => $cart["actualPrice"],
         ]);
     }
+
+    /**
+     * @Route("/cart", name="cart_pay")
+     */
+    public function pay(ProductRepository $productRepository)
+    {
+        $complete = $productRepository->saveDetails();
+        return $this->render('cart/index.html.twig', [
+            'paid' => $complete,
+        ]);
+    }
 }

@@ -3,12 +3,10 @@
 {% block title %}Hello CartController!{% endblock %}
 
 {% block body %}
-<h1>Product index</h1>
-
     <table class="table">
         <thead>
             <tr>
-                <th colspan="6">shopping cart</th>
+                <th colspan="6"><h1>shopping cart</h1></th>
             </tr>
             <tr>
                 <th>Id</th>
@@ -40,7 +38,10 @@
                 <td>The total amount: ${{ actualPrice }},-</td>
             </tr>
             <tr>
-                <td colspan="10"><a href="{{path('product_index') }}"> <button class="btn btn-primary">Back</button></a></td>
+                <td colspan="10">
+                    <a href="{{ path('product_index') }}"> <button class="btn btn-primary">Back</button></a>
+                    <a href="{{ path('cart_pay') }}"><button class="btn btn-danger">Order</button></a>
+                </td>
             </tr>
         </tfoot>
     </table>
