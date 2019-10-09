@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello DefaultController!{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" src="default.css">
+{% endblock %}
+
+{% block body %}
+<style>
+.title {
+    width: 100%;
+    text-align: center;
+}
+
+.title h1{
+    text-align: center;
+}
+</style>
+
+<div class="container">
+    <div class="title">
+        <h1>Welcome to the test forum!</h1>
+    </div>
+    <div class="content">
+        This is just a test forum, you can look at some demo posts up above by clicking the link in the navigation
+    </div>
+</div>
+
+{% endblock %}
